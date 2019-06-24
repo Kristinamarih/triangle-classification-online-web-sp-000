@@ -14,7 +14,8 @@ class Triangle
       raise TriangleError
     elsif (@length_3 == @length_2) && (@length_2 == @length_1) && (@length_1 == @length_3)
     return @equilateral
-    elsif 
+    elsif (@length_1 != @length_2) && (@length_2 != @length_3) && (@length_3 != @length_1)
+    return 
   
   end
 end
