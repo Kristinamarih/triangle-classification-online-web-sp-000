@@ -19,8 +19,6 @@ class Triangle
     return @equilateral
   else
     raise TriangleError
-    rescue TriangleError => error
-          puts error.message
   end
 end
 
