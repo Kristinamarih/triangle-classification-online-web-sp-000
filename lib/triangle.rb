@@ -19,11 +19,14 @@ class Triangle
     return @equilateral
   else
     raise TriangleError
+    rescue PartnerError => error
+          puts error.message
   end
 end
 
 class TriangleError < StandardError
   
+  def 
   
 end
   
